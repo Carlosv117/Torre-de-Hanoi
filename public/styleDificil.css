@@ -1,0 +1,124 @@
+.subCorpo {
+  width: 100%;
+  height: 100%;
+}
+
+.jogo {
+  width: 100%;
+  height: 65%;
+  background-color: rgb(90, 87, 87);
+  display: flex;
+}
+.torres {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 7%;
+  background-image: url(../img/FundoDeMadeira.jpg);
+  background-size: cover;
+}
+.rodaPe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 28%;
+  background-image: url(../img/FundoDeMadeira.jpg);
+  background-size: cover;
+  color: rgb(90, 87, 87);
+}
+
+.contadorP {
+  font-size: 25px;
+  color: rgb(90, 87, 87);
+}
+
+.aviso {
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(90, 87, 87);
+}
+.espetos {
+  width: 33.333%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
+}
+.espeto {
+  width: 20px;
+  height: 80%;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  background-image: url(../img/FundoDeMadeira.jpg);
+  background-size: cover;
+}
+.discos {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+}
+.disco {
+  height: 20px;
+  border-radius: 5px;
+}
+.disco0 {
+  width: 80%;
+  background-color: #ff0000;
+}
+.disco1 {
+  width: 70%;
+  background-color: #ff6600;
+}
+
+.disco2 {
+  width: 60%;
+  background-color: #ffe600;
+}
+.disco3 {
+  width: 50%;
+  background-color: #1eff00;
+}
+.disco4 {
+  width: 40%;
+  background-color: #00ffea;
+}
+.identidicadorTorres {
+  font-size: 50px;
+  cursor: pointer;
+}
+#selecionado {
+  border: 2px solid rgb(255, 255, 255);
+}
+button {
+  width: 110px;
+  height: 50px;
+  font-size: 24px;
+  margin: 10px;
+  border-radius: 20px;
+  background-image: url(../img/parede-de-madeira-riscado-conceito-material-da-textura-do-fundo_53876-30226.jpg);
+  background-size: cover;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  border: blanchedalmond 2px solid;
+}
+.marcadorJogadas {
+  font-size: 25px;
+  margin-left: 10px;
+  color: rgb(90, 87, 87);
+}
+
+@media screen and (min-width: 678px) {
+  .espeto {
+    width: 30px;
+  }
+}
